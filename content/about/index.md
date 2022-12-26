@@ -1,9 +1,9 @@
 ---
 title: "About"
-date: 2022-05-06
-draft: false
+date: 12-26-2022
+draft: true
 ---
 
-This is my site! It's hosted on GitHub Pages, uses Cloudflare and a free .gay domain from Porkbun. Eventually it will also be used for my Discord bot and Enmity Plugins, but for now it's basically just a profile for me with links to all the platforms I'm on.
+This is a website that i made using Github Pages (Obviously). Its gonna be used for any creations/random stuff I made/found. (I did not make this site and it was made by FieryFlames. Source code below.)
 
 The source code for this site is available [here](https://github.com/FieryFlames/fieryflames.github.io).
