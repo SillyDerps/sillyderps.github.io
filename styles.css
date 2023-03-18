@@ -279,7 +279,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: #fff;
+  background-color: #333333;
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -2242,11 +2242,11 @@ textarea.w-select {
   text-align: left;
   cursor: pointer;
   color: #222222;
-  background-color: #dddddd
+  background-color: #252525
 }
 
 .w-tab-link.w--current {
-  background-color: #C8C8C8
+  background-color: #252525
 }
 
 .w-tab-link:focus {
@@ -2415,7 +2415,7 @@ textarea.w-select {
 }
 
 .tab-link-about {
-  background-color: #443c3c;
+  background-color: #252525;
 }
 
 .tab-link-about.w--current {
