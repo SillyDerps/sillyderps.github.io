@@ -1,4 +1,4 @@
-/* Generated on: Sat Mar 18 2023 18:14:58 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Mar 18 2023 23:16:40 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -434,7 +434,7 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 
 .w-webflow-badge>img {
-  display: none !important;
+  display: inline-block !important;
   visibility: visible !important;
   opacity: 1 !important;
   vertical-align: middle !important
@@ -1168,7 +1168,7 @@ textarea.w-select {
 }
 
 .w-widget-twitter-count-shim {
-  display: none;
+  display: inline-block;
   vertical-align: top;
   position: relative;
   width: 28px;
@@ -2331,8 +2331,9 @@ textarea.w-select {
   outline-width: 3px;
   -webkit-transition: font-variation-settings 200ms ease;
   transition: font-variation-settings 200ms ease;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
+  font-weight: 400;
   text-align: left;
   cursor: auto;
 }
@@ -2387,15 +2388,16 @@ textarea.w-select {
 }
 
 .heading-2 {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .paragraph {
   margin-right: auto;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
+  font-weight: 400;
 }
 
 .image {
@@ -2411,12 +2413,13 @@ textarea.w-select {
 }
 
 .text-block {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
+  font-weight: 400;
 }
 
 .text-block-2 {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
 }
 
@@ -2450,13 +2453,13 @@ textarea.w-select {
 .heading-3 {
   -webkit-transition: font-variation-settings 200ms ease;
   transition: font-variation-settings 200ms ease;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .paragraph-2 {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
 }
 
@@ -2502,7 +2505,7 @@ textarea.w-select {
 }
 
 .text-block-4 {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
 }
 
@@ -2515,13 +2518,43 @@ textarea.w-select {
 }
 
 .heading-5 {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
+  font-weight: 400;
 }
 
 .paragraph-4 {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
   color: #fff;
+}
+
+.image-4 {
+  width: 640px;
+  height: 480px;
+}
+
+.image-5 {
+  display: block;
+  float: none;
+  clear: none;
+  mix-blend-mode: normal;
+}
+
+.image-6 {
+  display: block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.tab-pane-credits {
+  font-family: Mojang;
+}
+
+.tab-pane-home {
+  font-family: 'Px437 toshibasat 8x14', sans-serif;
 }
 
 @media screen and (max-width: 991px) {
@@ -2578,13 +2611,31 @@ textarea.w-select {
   }
 }
 
+@font-face {
+  font-family: 'Px437 toshibasat 8x14';
+  src: url('https://uploads-ssl.webflow.com/6415049411a4e477c2dddc45/641645479f12e0f44be0bce6_Px437_ToshibaSat_8x14.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Px437 ibm vga 8x16';
+  src: url('https://uploads-ssl.webflow.com/6415049411a4e477c2dddc45/641645f3f8e2ade35ed411ad_Px437_IBM_VGA_8x16.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:700';
+
 html,
 body {
   font-family: 'Roboto Mono', monospace;
   background: #ffffff00;
   height: 100%;
 }
+
 .container {
   height: 100%;
   width: 100%;
@@ -2592,11 +2643,22 @@ body {
   align-items: center;
   display: flex;
 }
+
 .heading {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 30px;
   color: #fafafa;
 }
+
 .dud {
   color: #085a00;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./assets/images/crt-scanline.png") repeat;
 }
