@@ -1,4 +1,4 @@
-/* Generated on: Sat Mar 18 2023 01:24:08 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Mar 18 2023 03:06:45 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -279,7 +279,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: #333333;
+  background-color: #fff;
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -2242,11 +2242,11 @@ textarea.w-select {
   text-align: left;
   cursor: pointer;
   color: #222222;
-  background-color: #252525
+  background-color: #dddddd
 }
 
 .w-tab-link.w--current {
-  background-color: #252525
+  background-color: #C8C8C8
 }
 
 .w-tab-link:focus {
@@ -2323,12 +2323,10 @@ textarea.w-select {
   margin-left: 200px;
   float: none;
   clear: none;
-  -webkit-transition: opacity 200ms ease, opacity 200ms ease;
-  transition: opacity 200ms ease, opacity 200ms ease;
   font-family: 'Roboto Mono', sans-serif;
   color: #fff;
   text-align: left;
-  cursor: wait;
+  cursor: auto;
 }
 
 .utility-page-wrap {
@@ -2427,12 +2425,14 @@ textarea.w-select {
 }
 
 .tab-link-home.w--current {
+  background-color: #252525;
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
 }
 
 .tabs-menu {
   margin-left: 250px;
+  background-color: hsla(0, 0%, 100%, 0);
 }
 
 .tabs-content {
@@ -2440,6 +2440,8 @@ textarea.w-select {
 }
 
 .heading-3 {
+  -webkit-transition: font-variation-settings 200ms ease;
+  transition: font-variation-settings 200ms ease;
   font-family: 'Roboto Mono', sans-serif;
   color: #fff;
   font-weight: 700;
@@ -2488,6 +2490,29 @@ textarea.w-select {
 }
 
 .text-block-3 {
+  color: #fff;
+}
+
+.text-block-4 {
+  font-family: 'Roboto Mono', sans-serif;
+  color: #fff;
+}
+
+.tab-link-credits {
+  background-color: #252525;
+}
+
+.tab-link-credits.w--current {
+  background-color: #252525;
+}
+
+.heading-5 {
+  font-family: 'Roboto Mono', sans-serif;
+  color: #fff;
+}
+
+.paragraph-4 {
+  font-family: 'Roboto Mono', sans-serif;
   color: #fff;
 }
 
