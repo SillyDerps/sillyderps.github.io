@@ -1,4 +1,4 @@
-/* Generated on: Sat Mar 18 2023 03:06:45 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Mar 18 2023 18:14:58 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -324,7 +324,7 @@ html.w-mod-touch * {
 }
 
 .w-button {
-  display: inline-block;
+  display: none;
   padding: 9px 15px;
   background-color: #3898EC;
   color: white;
@@ -1168,7 +1168,7 @@ textarea.w-select {
 }
 
 .w-widget-twitter-count-shim {
-  display: inline-block;
+  display: none;
   vertical-align: top;
   position: relative;
   width: 28px;
@@ -2315,6 +2315,8 @@ textarea.w-select {
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, repeat;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 .heading {
@@ -2323,6 +2325,12 @@ textarea.w-select {
   margin-left: 200px;
   float: none;
   clear: none;
+  outline-color: #fff;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+  -webkit-transition: font-variation-settings 200ms ease;
+  transition: font-variation-settings 200ms ease;
   font-family: 'Roboto Mono', sans-serif;
   color: #fff;
   text-align: left;
@@ -2568,4 +2576,27 @@ textarea.w-select {
   .text-block-3 {
     margin-left: -250px;
   }
+}
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:700';
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #ffffff00;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.heading {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fafafa;
+}
+.dud {
+  color: #085a00;
 }
