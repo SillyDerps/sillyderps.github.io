@@ -1,3 +1,3 @@
-# sillyderps.github.io
+# derps.page (sillyderps.github.io)
 
 This is a random mini project so ignore this
