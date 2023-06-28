@@ -1,5 +1,3 @@
-# [derps.page](https://sillyderps.github.io/)
+# [jq.page](https://sillyderps.github.io/)
 
-This is a random website I made so ignore this
-
-Tryed to go towards a retro type website
+A Random site I made as a fun project
