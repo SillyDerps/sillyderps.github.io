@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>New Tab</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-type" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="css/font.css" rel="stylesheet">
+
+    <!-- anime.js -->
+    <script defer="" src="js/anime.min.js"></script>
+</head>
+
+
+
+<body>
+
+    <!-- Gif Image -->
+    <header>
+        <div id="img">
+            <img src="image.gif" alt="gif" />
+        </div>
+    </header>
+
+
+    <main>
+        <div id="content">
+
+            <!-- Heading -->
+            <div id="head">
+                <!-- Old Search Box -->
+                <!--
+                <form action="https://google.com/search">
+                    <label for="q" autofocus>> welcome <i>nathan</i> </label>
+                    <input type="text" name="q" autocomplete="off">
+                </form>
+                -->
+
+                <!-- New Header -->
+                <h1>> Welcome <i style="color: #0084ff">John</i>.</h1>
+                <div id="info">
+                    <span id="weatherDesc">Loading...</span>, at
+                    <span>
+                        <time class="clock" id="clock" />
+                    </span>
+                    <p id="temp">Loading...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Full Screen Search -->
+    <form autocomplete="off" class="center overlay search-form" id="search-form" spellcheck="false">
+        <div class="search-form-content">
+            <input class="search-input" id="search-input" title="search" type="text" aria-label="search" />
+            <ul class="search-suggestions" id="search-suggestions" />
+        </div>
+    </form>
+    <aside class="center help overlay" id="help" />
+
+</body>
+
+
+<!-- Scripts -->
+<script src="js/config.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/search.js"></script>
+<script src="js/newtab.js"></script>
+
+</html>
