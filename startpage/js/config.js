@@ -203,6 +203,24 @@
                 url: 'https://untitled.stream/',
             },
             {
+                hues: ['5', '5'],
+                key: 'mega',
+                name: 'MEGA',
+                url: 'https://mega.nz/',
+            },
+            {
+                hues: ['246', '213'],
+                key: 'mediafire',
+                name: 'Mediafire',
+                url: 'https://mediafire.com/',
+            },
+            {
+                hues: ['58', '58'],
+                key: 'amazon',
+                name: 'Amazon',
+                url: 'https://amazon.com/',
+            },
+            {
                 hues: ['0', '79'],
                 key: 'gmail',
                 name: 'Google Mail',
